@@ -9,7 +9,7 @@ let intervalId = null;
 refs.stopButton.disabled = true;
 
 function getRandomColor() {
-    return `${Math.floor(Math.random()*16777215).toString(16)}`
+    return `#${Math.floor(Math.random()*16777215).toString(16)}`
 };
 
 refs.startButton.addEventListener('click', () => {
